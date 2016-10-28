@@ -1,0 +1,897 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+
+}
+
+.clearfix:before {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.top {
+    height: 30px;
+    margin: 0 auto;
+    background: #333;
+}
+
+.W1287 {
+    width: 1287px;
+    margin: 0 auto;
+}
+
+.W1024 {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url("../img/app_icon_43ba565.png") no-repeat 0 8px;
+}
+
+.aL {
+    display: inline-block;
+    font-size: 14px;
+    color: #08d7a2;
+    padding: 6px 12px 5px 17PX;
+
+}
+
+.aL:hover {
+    color: #05eaaf;
+}
+
+.header i {
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #5d5d5d;
+    margin: 0 12px -2px 0;
+}
+
+.aR {
+    font-size: 14px;
+    color: #c4c3c3;
+}
+
+.aR:hover {
+    color: #fff;
+}
+
+.header ul {
+    float: right;
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.header ul li {
+    float: left;
+}
+
+.header ul li a {
+    color: #c4c3c3;
+}
+
+.header ul li > i {
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #5d5d5d;
+    margin: 0 12px -2px 11px;
+}
+
+.header ul li a:hover {
+    color: #fff;
+}
+
+.nav {
+    background-color: #fafafa;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    height: 54px;
+}
+
+.navT h1 {
+    float: left;
+    width: 97px;
+    height: 36px;
+    padding: 10px 0;
+    background: url("../img/logo_d0915a9.png ") no-repeat 0;
+}
+
+.main {
+    width: 118px;
+    float: left;
+    height: 44px;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 18px;
+    line-height: 44px;
+}
+
+.main span {
+    font-size: 18px;
+    margin: 11px 0 10px 0;
+}
+
+.main a {
+    font-size: 12px;
+    color: #999999;
+}
+
+.mainZ {
+    width: 368px;
+    height: 54px;
+    float: left;
+    margin-left: 14px;
+
+}
+
+.mainZ li {
+    float: left;
+    width: 46px;
+    height: 23px;
+    padding: 15px 5px;
+    margin-left: 36px;
+    text-align: center;
+}
+
+.mainZ li:hover {
+    border-bottom: 2px solid #00b38a;
+    color: #333
+}
+
+.mainZ a {
+    font-size: 18px;
+    color: #999999;
+}
+
+.mainZ a:hover {
+    color: #333;
+}
+
+.mainZ .mainL a {
+    color: #333;
+}
+
+.mainL {
+    border-bottom: 2px solid #00b38a;
+}
+
+.mainNew {
+    position: relative;
+}
+
+.mainNew i {
+    position: absolute;
+    top: 6px;
+    left: 42px;
+}
+
+.content {
+    position: relative;
+    width: 1024px;
+    margin: 90px auto 0;
+}
+
+.mainNavs {
+    width: 230px;
+    float: left;
+}
+
+.mainNavs .mums {
+    position: relative;
+    width: 200px;
+    float: left;
+    background: #fafafa;
+    padding: 0 18px 9px 16px;
+    border: 2px solid #fafafa;
+    z-index: 100;
+}
+
+.mumsJ {
+
+    width: 236px;
+    float: left;
+    padding-top: 12px;
+    border-bottom: 2px solid #00b38a;
+
+}
+
+.mumsJ a {
+    display: block;
+    background: #fafafa;
+    width: 196px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    color: #555;
+    padding: 0 0 0 40px;
+}
+
+.mumsJ i {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0 20px 0 77px;
+    background: url("../img/arr_btn_c46d8e5.png") no-repeat 0 -19px;
+    vertical-align: middle;
+}
+
+.mainNavs .mumsL {
+    background: #fff;
+    border: 2px solid #c9cbce;
+
+    border-right: 4px solid #fff;
+    position: relative;
+    width: 200px;
+    float: left;
+    padding: 0 18px 9px 16px;
+    z-index: 100;
+}
+
+.mainNavs h2 {
+    width: 204px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: normal;
+    padding-top: 18px;
+
+}
+
+.mainNavs h2 span {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    background: url("../img/arr_7b73530.png") no-repeat 0 0;
+    float: right;
+    margin-top: 4px;
+
+}
+
+.mums em {
+    width: 37px;
+    height: 17px;
+
+}
+
+.mums > a {
+    color: #555555;
+    font-size: 14px;
+    margin: 13px 22px 0 0;
+    float: left;
+    line-height: 22px;
+}
+
+.mums > a:hover, .mumsJ a:hover {
+    color: #08d7a2;
+    text-decoration: underline;
+
+}
+
+.sidebar {
+    position: absolute;
+    left: 238px;
+    top: 0;
+    width: 604px;
+    background: #fff;
+    border: 2px solid #c9cbce;
+    display: none;
+    z-index: 1;
+
+}
+
+.sidebar a:hover {
+    color: #00b38a;
+}
+
+.sidebar dl {
+
+    padding: 23px 0 13px 43px;
+    float: left;
+}
+
+.sidebar dt {
+    float: left;
+    width: 70px;
+
+}
+
+.sidebar dt a {
+    text-decoration: underline;
+    color: #333333;
+    font-size: 14px;
+    float: right;
+
+}
+
+.sidebar dd {
+    width: 406px;
+    float: left;
+    padding-left: 38px;
+
+}
+
+.sidebar dd a {
+    padding: 0 8px;
+    background: url("../img/arr_7b73530.png") no-repeat -29px 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #555555;
+    line-height: 22px;
+
+}
+
+.sidebar dd .backNone {
+    background: none;
+}
+
+.contentR {
+    width: 744px;
+    margin-left: 280px;
+
+}
+
+.contentR .input {
+    width: 568px;
+    height: 23px;
+    float: left;
+    line-height: 23px;
+    font-size: 16px;
+    padding: 5px 8px 5px 10px;
+    border: 2px solid #00b38a;
+    color: #c4c3c3;
+}
+
+#search {
+    width: 150px;
+    height: 37px;
+    display: inline-block;
+    background: #00b38a;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.searchT dl {
+    margin: 9px 0 18px;
+
+}
+
+.searchT dl dt {
+    font-size: 14px;
+    float: left;
+
+}
+
+.searchT dl dt dd {
+    float: left;
+}
+
+.searchT a {
+    color: #00b38a;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.searchT a:hover {
+    text-decoration: underline;
+}
+
+/*————————————————————bannerStart——————————*/
+.banner {
+    position: relative;
+    width: 744px;
+    height: 160px;
+    margin: 0 0 18px;
+    overflow: hidden;
+}
+
+.banner .boxInner {
+    height: 640px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner .boxInner div {
+    width: 612px;
+    height: 160px;
+    background: url("../img/default.gif") no-repeat center #e1e1e1;
+}
+
+.box .boxInner div img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner ul {
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 160px;
+    width: 121px;
+}
+
+.banner ul li {
+    position: relative;
+    height: 42px;
+    border: 4px solid #a7a3a6;
+    margin-bottom: 5px;
+    background: #d3d3d3;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.banner ul li:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.banner ul li span {
+    background: url("../img/chuanq.png");
+    position: absolute;
+    width: 116%;
+    height: 52px;
+    left: -10px;
+    top: -4px;
+    display: none;
+}
+
+.banner ul .liS span {
+    display: block;
+}
+
+/*------------------------bannerB--------------------------------*/
+.bannerB {
+    width: 744px;
+    height: 117px;
+}
+
+.bannerB li {
+    position: relative;
+    width: 113px;
+    height: 113px;
+    border: 2px solid #fafafa;
+    float: left;
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+.bannerB a img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bannerB li div {
+    position: absolute;
+    background: #333;
+    background: rgba(0, 179, 138, .9);
+    background: #00b38a;
+    filter: alpha(opacity=90);
+    width: 100%;
+    height: 100%;
+    left: -113px;
+    top:0;
+}
+
+.bannerB li div h2 {
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 10px 8px 8px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.bannerB li div em {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: rgba(255, 255, 255, .3);
+    background: #fff;
+    filter: alpha(opacity=30);
+    margin: 0 6px;
+}
+
+.bannerB li div p {
+    font-size: 12px;
+    margin: 6px 8px;
+    line-height: 18px;
+}
+
+/*--------------job------------------------------*/
+.job {
+    background: #f6f6f6;
+    height: 39px;
+    margin-top: 26px;
+
+}
+
+.job li {
+    width: 112px;
+    height: 36px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    color: #999999;
+    border-top: 3px solid #f6f6f6;
+    cursor: pointer;
+}
+
+.job .hotJob {
+    border-top: 3px solid #00b38a;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+}
+
+#jobHot {
+    height: 1736px;
+    overflow: hidden;
+
+}
+
+.jobHot {
+    display: none;
+}
+
+#jobHot ul li {
+    border-bottom: 1px dashed #e1e1e1
+}
+
+.divT {
+    width: 744px;
+    height: 62px;
+    background-color: #fff;
+    padding-top: 22px;
+    overflow: hidden;
+
+}
+
+.divT .divL {
+    width: 400px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.divT .divR {
+    width: 294px;
+    float: right;
+}
+
+.post {
+    display: inline-block;
+    margin: 0 10px 10px 15px;
+    color: #00b38a;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.postL {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    color: #00b38a;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.date {
+    color: #999999;
+    font-size: 14px;
+}
+
+.pay {
+    margin: 0 10px 18px 15px;
+    font-size: 16px;
+    color: #fa6041;
+}
+
+.suffer {
+    font-size: 14px;
+}
+
+.divB {
+    height: 39px;
+    background: #f6f6f6;
+
+}
+
+.divB .divL {
+    float: left;
+}
+
+.divB .divL p {
+    margin-left: 23px;
+    width: 400px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.divB .divR {
+    float: left;
+    margin-left: 27px;
+}
+
+.divB span {
+    display: inline-block;
+    border: 1px solid #dcdcdc;
+    margin: 8px 14px 6px 0;
+    padding: 2px 3px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+}
+
+.more {
+    width: 119px;
+    height: 32px;
+    background: #00b38a;
+    float: right;
+    margin: 25px 0 40px 0;
+
+}
+
+.more a {
+    display: inline-block;
+    width: 119px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 32px;
+    padding-left: 15px;
+}
+
+.more i {
+    vertical-align: middle;
+    margin-left: 9px;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url("../img/arr_btn_c46d8e5.png") no-repeat 0 1px;
+}
+
+.blogRoll a:hover {
+    text-decoration: underline;
+    color: #00b38a;
+}
+
+.blogRoll {
+    clear: both;
+    padding-top: 20px;
+    border-top: 2px solid #ececed;
+
+}
+
+.blogRoll .rollR {
+    font-size: 14px;
+    float: left;
+
+}
+
+.rollL a {
+    float: right;
+    margin: -24px 15px;
+    font-size: 12px;
+    color: #555;
+}
+
+.rollL i {
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    margin-left: 2px;
+    background: url("../img/arrow_down_769cdcc.png") 0 0 no-repeat;
+}
+
+.blogRoll dd {
+    float: left;
+    margin: -22px 0 0 80px;
+    height: 31px;
+    overflow: hidden;
+
+}
+
+.blogRoll dd a {
+    background: url("../img/arr_7b73530.png") no-repeat -29px 10px;
+    line-height: 15px;
+    float: left;
+    height: 15px;
+    padding: 8px 9px;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+
+}
+/*.footerT{*/
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+/*}*/
+.footer {
+    width: 100%;
+    height: 64px;
+    z-index: 1000;
+//bottom:68px;
+    left: 0;
+    margin-top: 43px;
+    background: url('../img/footerbar_repeat_c5aebac.png') repeat-x;
+}
+
+.footer .ico {
+    float: left;
+    width: 95px;
+    height: 54px;
+
+}
+
+.footer .ico img {
+    position: relative;
+    display: block;
+    width: 95px;
+    height: 54px;
+    top: -54px;
+    left: 54px;
+}
+
+.footer .company{
+
+    float: left;
+    width: 225px;
+    left: 260px;
+    height: 30px;
+    top: -31px;
+    margin: 20px 0 0 290px;
+    background: url("../img/footbar_text_fd4f55f.png")150px 16px no-repeat;
+}
+.company i{
+    display: inline-block;
+    width: 17px;
+    height: 30px;
+    background: url("../img/footbar_no_2448ca7.png") 0 0 no-repeat;
+}
+.company b{
+    display: inline-block;
+    width: 4px;
+    height: 30px;
+    background: url("../img/footbar_comma_365ec06.png") center bottom no-repeat;
+}
+.footer .logoT{
+    float: left;
+}
+.footer .logoT img {
+    display: block;
+    width: 138px;
+    height: 45px;
+    margin: 10px 0 10px -38px;
+
+}
+.register{
+    width: 212px;
+    height: 64px;
+    float: right;
+    cursor: pointer;
+    background: url("../img/footbar_register_f544a92.png") center no-repeat #ea7976;
+}
+.register:hover{
+    width: 212px;
+    background: url("../img/footbar_register_f544a92.png") center no-repeat #e76867;
+}
+.Login{
+    float: right;
+    width: 142px;
+    height: 64px;
+    background: url("../img/footbar_demglu_72d6866.png")center no-repeat #7ac7a3;
+}
+.Login:hover{
+    cursor: pointer;
+    background: url("../img/footbar_demglu_72d6866.png")center no-repeat #75b997;
+
+}
+.footerB{
+    height: 69px;
+    margin-top: 9px;
+}
+.footerB i{
+    width: 198px;
+    height: 19px;
+    float: left;
+}
+.footerB .service{
+    float: left;
+    margin-left: 40px;
+}
+.service a{
+    font-size: 14px;
+    color: #555555;
+    margin-right: 10px
+}
+.new span{
+    display:inline-block;
+    width: 30px;
+    height: 16px;
+    background: url("../img/new_v1_534bcc8.png") no-repeat;
+}
+.new img{
+    width: 256px;
+    height: 256px;
+    display: none;
+    border: 3px solid #0D9572;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 1001;
+}
+.new:hover img{
+    display: block;
+}
+.service span{
+    font-size: 14px;
+    color: #555555;
+}
+.copyright{
+    clear: both;
+    height: 41px;
+    margin: 0 auto;
+    padding-top: 13px;
+    color: #d5d5d5;
+    font-size: 12px;
+    line-height: 41px;
+    text-align: center;
+
+}
+.copyright a {
+    padding-right: 0;
+    font-size: 12px;
+    color: #d5d5d5;
+    line-height: 41px;
+    text-align: center;
+}
+.copyright a img{
+    display: inline-block;
+    line-height: 41px;
+    text-align: center;
+}
+.copyright span{
+    font-size: 12px;
+    color: #d5d5d5;
+    line-height: 41px;
+    text-align: center;
+}
+.backTop{
+    position: fixed;
+    bottom: 150px;
+    right: 78px;
+}
+.backTop a{
+    display: block;
+    width: 28px;
+    height: 64px;
+    margin-left: 10px;
+    background: url("../img/backtop_4d5862f.png") 0 0 no-repeat;
+}
+.backTop a:hover{
+    background-position: -28px 0;
+}
+.backTop em{
+    display: block;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background: url("../img/feedback_06c5af9.png") 0 1px no-repeat;
+}
+.backTop em:hover{
+    background-position: 0 -30px;
+}
+.backTop span{
+    font-size: 12px;
+    color: #555555;
+}
