@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016-09-02.
- */
 var oDiv = document.getElementById('div1');
 var aDiv = oDiv.getElementsByClassName('cont');
 var sDiv = oDiv.getElementsByClassName('mums');
