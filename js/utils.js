@@ -1,6 +1,4 @@
-/**
- * Created by xiao lei on 2016/8/14.
- */
+
 var utils=(function(){
     var flag='getComputedStyle' in window; //惰性思想；
     function jsonParse(str){
