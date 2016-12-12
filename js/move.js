@@ -1,8 +1,6 @@
-/**
- * Created by xiao lei on 2016/8/17.
- */
+
 (function(){
-    var zhufengEffect = {
+    var Effect = {
         //匀速
         Linear: function (t, b, c, d) {
             return c * t / d + b;
@@ -10,7 +8,7 @@
         //指数衰减的反弹缓动
         Bounce: {
             easeIn: function (t, b, c, d) {
-                return c - zhufengEffect.Bounce.easeOut(d - t, 0, c, d) + b;
+                return c - Effect.Bounce.easeOut(d - t, 0, c, d) + b;
             },
             easeOut: function (t, b, c, d) {
                 if ((t /= d) < (1 / 2.75)) {
@@ -25,9 +23,9 @@
             },
             easeInOut: function (t, b, c, d) {
                 if (t < d / 2) {
-                    return zhufengEffect.Bounce.easeIn(t * 2, 0, c, d) * .5 + b;
+                    return Effect.Bounce.easeIn(t * 2, 0, c, d) * .5 + b;
                 }
-                return zhufengEffect.Bounce.easeOut(t * 2 - d, 0, c, d) * .5 + c * .5 + b;
+                return Effect.Bounce.easeOut(t * 2 - d, 0, c, d) * .5 + c * .5 + b;
             }
         },
         //二次方的缓动
@@ -181,14 +179,14 @@
     };
     //{left:800,top:400,......}
     function move(curEle,target,duration,effect,callback){
-        var tmpEffect=zhufengEffect.Linear;
+        var tmpEffect=Effect.Linear;
         var ary = ["Linear", "Elastic-easeOut", "Back-easeOut", "Bounce-easeOut", "Expo-easeIn"];
         if(typeof effect==='number'){
             var str=ary[effect%ary.length];
             ary=str.split('-');
-            tmpEffect=ary.length>=2?zhufengEffect[ary[0]][ary[1]]:zhufengEffect[ary[0]];
+            tmpEffect=ary.length>=2?Effect[ary[0]][ary[1]]:Effect[ary[0]];
         }else if(typeof effect==='object'){
-            tmpEffect=effect.length>=2?zhufengEffect[effect[0]][effect[1]]:zhufengEffect[effect[0]];
+            tmpEffect=effect.length>=2?Effect[effect[0]][effect[1]]:Effect[effect[0]];
         }else if(typeof effect==='function'){//当effect传的是函数的时候，我们把它赋值给回调函数；
             callback=effect;
         }
